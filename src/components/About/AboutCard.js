@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -8,30 +7,27 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
+            Hi everyone, I'm <span className="purple">Cole Gorski, </span>
+            a Chicago-based web and mobile software engineer.
+            <br />
+            <br />I graduated from Ohio State University in 2019 where I studied
+            <span className="purple"> Computer Science</span> and{" "}
+            <span className="purple">Business</span>, and have about 4 years of
+            experience as a professional developer.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Currently I'm with <span className="purple">Accenture</span> as a
+            Frontend Development Specialist within the Digital Products group,
+            where I work with our clients to develop their customer-facing
+            applications.
+            <br />
+            <br />I enjoy using modern Javascript frameworks to create beautiful
+            applications that solve{" "}
+            <span className="purple">specific problems,</span> and am always on
+            the lookout for new technologies to learn.
+            <br />
+            <br />
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>
