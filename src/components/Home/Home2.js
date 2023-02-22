@@ -13,42 +13,41 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              Allow myself to introduce...{" "}
-              <i>
-                <b className="purple">myself</b>
-              </i>
-            </h1>
-            <p className="home-about-body">
-              I'm a <b className="purple">Chicago-based</b> front end developer
-              with a passion for creating dynamic, scalable, responsive and
-              accessible web and mobile applications.
-              <br />
-              <br />
-              Professionally, most of my time is spent building{" "}
-              <b className="purple">React</b> and{" "}
-              <b className="purple">React Native</b> applications in Typescript.
-              I also like to build chatbots using{" "}
-              <b className="purple">Dialogflow</b> or{" "}
-              <b className="purple">Alexa.</b>
-              <br />
-              <br />I have extensive Cloud Platform experience with &nbsp;
-              <b className="purple">GCP, Azure and AWS, </b> for which I am a
-              certifed Solutions Architect.
-              <br />
-              <br />
-              Outside of work, I'm an avid house music listener, pole vault
-              coach, football fan, snowboarder, wannabe chef, and traveler.{" "}
-            </p>
-          </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
-          </Col>
-        </Row>
+        <Col md={12} className="myAvtar">
+          <Tilt>
+            <img src={myImg} className="img-fluid" alt="avatar" />
+          </Tilt>
+        </Col>
+        <Col md={{ span: 8, offset: 2 }} className="home-about-description">
+          <h1 style={{ fontSize: "2.6em" }}>
+            Allow myself to introduce...{" "}
+            <i>
+              <b className="purple">myself</b>
+            </i>
+          </h1>
+          <p className="home-about-body">
+            I'm a <b className="purple">Chicago-based</b> front end developer
+            with a passion for creating dynamic, scalable, responsive and
+            accessible web and mobile applications.
+            <br />
+            <br />
+            Professionally, most of my time is spent building{" "}
+            <b className="purple">React</b> and{" "}
+            <b className="purple">React Native</b> applications in Typescript. I
+            also like to build chatbots using{" "}
+            <b className="purple">Dialogflow</b> or{" "}
+            <b className="purple">Alexa.</b>
+            <br />
+            <br />I have extensive Cloud Platform experience with &nbsp;
+            <b className="purple">GCP, Azure and AWS, </b> for which I am a
+            certifed Solutions Architect.
+            <br />
+            <br />
+            Outside of work, I'm an avid house music listener, pole vault coach,
+            football fan, snowboarder, wannabe chef, and traveler.{" "}
+          </p>
+        </Col>
+
         <Row>
           <Col md={12} className="home-about-social">
             <h3 className="purple">Connect with me</h3>
