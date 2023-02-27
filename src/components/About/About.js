@@ -14,7 +14,6 @@ function About() {
         <Row
           style={{
             justifyContent: "center",
-            padding: "10px",
           }}
         >
           <h1 style={{ fontSize: "3em", paddingBottom: "20px" }}>
@@ -47,7 +46,7 @@ function About() {
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
-        <Toolstack />
+        <Toolstack style={{ marginBottom: 50 }} />
       </Container>
     </Container>
   );
